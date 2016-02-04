@@ -1,5 +1,5 @@
-$(document).ready (function){
-  $().click (function)() {
-    alert();
-  }):
+$(document).ready(function() {
+  $(".clickable").click(function() {
+    $("h1").show();
+  });
 });
